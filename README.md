@@ -1,7 +1,7 @@
 # ExtDN Extension Releases Database (Magento 2)
 Intended to become the data source for the [dashboard extension](https://github.com/extdn/extension-dashboard-m2).
 
-The aim is to keep barrier to contribute as low as possible. For now the output is a simple csv file.
+The aim is to keep the barrier to contribute as low as possible. For now the output is a simple csv file.
 
 
 Usage:
@@ -15,9 +15,8 @@ this updates output/all-releases.csv
 
 commit
 
-
-Next Steps:
-Allow other input methods
-Maybe keep a manual.csv that merges to output/all-releases.csv
-
-Feed into FriendsOfPHP-Security-Advisories
+**Next Steps:**  
+- Allow other input methods
+- Maybe keep a manual.csv that merges to output/all-releases.csv
+- Hook into known composer repos?
+- Feed into FriendsOfPHP-Security-Advisories
